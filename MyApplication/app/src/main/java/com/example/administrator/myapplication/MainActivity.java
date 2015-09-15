@@ -8,12 +8,15 @@ import android.view.MenuItem;
 
 public class MainActivity extends Activity {
 
+    private int i ;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
 
-    public void set(){
-        
+    public void set(int i ){
+        this.i = i;
     }
 }
